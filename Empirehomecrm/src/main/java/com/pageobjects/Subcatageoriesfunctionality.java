@@ -126,7 +126,6 @@ public class Subcatageoriesfunctionality  extends Basetest {
 		clickSearch.sendKeys(prop.getProperty("RESubCategoryName"));
 	}
 
-	// AssertMessages
 	public void Add_CategoryAssertMessage() {
 		List<WebElement> rows = driver.findElements(By.xpath(".//td[normalize-space()='sofa']"));
 
